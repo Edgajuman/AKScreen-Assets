@@ -1,8 +1,8 @@
 # Contribuir a la biblioteca
 
 Los pull requests son la única vía para publicar. El catálogo de `main` es lo que ven los usuarios; un
-aporte pendiente nunca se distribuye. Puedes preparar los metadatos desde AK Screen y hacer el fork/PR
-desde GitHub.
+aporte pendiente nunca se distribuye. Puedes preparar y enviar el fork/PR desde **AK Screen →
+Herramientas → Biblioteca comunitaria**, o hacer el proceso manualmente desde GitHub.
 
 ## Estructura
 
@@ -49,11 +49,15 @@ registro de la decisión.
 ## Lista antes de enviar
 
 1. Comprueba `pack.json`, licencias, atribución, nombres y compatibilidad con AK Screen.
-2. Copia la carpeta preparada a `packages/<tu-usuario>/<id-del-paquete>/<versión>/` en tu fork.
-3. Desde la raíz del repositorio ejecuta `python tools/add_package.py packages/<tu-usuario>/<id-del-paquete>/<versión>/pack.json`.
-4. Ejecuta `python tools/validate_catalogue.py`; esta misma validación corre automáticamente en cada PR.
-5. Abre un PR con una descripción breve, capturas/vistas previas creadas por ti y los cambios de versión.
-6. Espera la revisión y las comprobaciones automáticas. No publiques anuncios de aceptación antes de que
+2. Para enviar desde AK Screen, crea el fork desde la página del repositorio e instala la [GitHub App](https://github.com/apps/ak-screen-asset-publisher)
+   con acceso solo a ese fork. AK Screen autenticará tu cuenta con un código temporal, preparará la rama
+   y abrirá un PR; no pide permiso para crear repositorios ni modifica `main`.
+3. Para el envío manual, copia la carpeta preparada a `packages/<tu-usuario>/<id-del-paquete>/<versión>/`
+   en tu fork.
+4. Desde la raíz del repositorio ejecuta `python tools/add_package.py packages/<tu-usuario>/<id-del-paquete>/<versión>/pack.json`.
+5. Ejecuta `python tools/validate_catalogue.py`; esta misma validación corre automáticamente en cada PR.
+6. Abre un PR con una descripción breve, capturas/vistas previas creadas por ti y los cambios de versión.
+7. Espera la revisión y las comprobaciones automáticas. No publiques anuncios de aceptación antes de que
    el PR se fusione.
 
 Para crear presets, empieza con **Effects → Export Preset…** o exporta una plantilla `.fcgt`; evita

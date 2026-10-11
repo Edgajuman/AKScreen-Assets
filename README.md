@@ -10,10 +10,11 @@ guardarlo. Los aportes entran mediante pull request y solo se muestran tras su r
 
 ## Para publicar
 
-Lee [CONTRIBUTING.md](CONTRIBUTING.md), prepara `packages/<tu-usuario>/<id-del-paquete>/<versión>/`
-y abre un pull request. El editor puede preparar esa carpeta desde **Herramientas → Biblioteca
-comunitaria → Preparar aporte**. Nunca añadas credenciales, programas ejecutables, scripts o código de
-plugins.
+Lee [CONTRIBUTING.md](CONTRIBUTING.md). En AK Screen puedes preparar un aporte desde **Herramientas →
+Biblioteca comunitaria → Preparar aporte** y, después de instalar la [GitHub App de publicación](https://github.com/apps/ak-screen-asset-publisher)
+en el fork elegido, autorizar tu propia cuenta y crear el fork, enviar el pull request desde el editor.
+También puedes seguir el flujo manual de fork y pull request. Nunca añadas credenciales, ejecutables,
+scripts ni código de plugins.
 
 ## Formatos aceptados
 
