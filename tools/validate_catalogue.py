@@ -11,6 +11,7 @@ from pathlib import Path, PurePosixPath
 ROOT = Path(__file__).resolve().parents[1]
 CATALOGUE = ROOT / "catalogue.json"
 MAX_CATALOGUE = 2 * 1024 * 1024
+MAX_MANIFEST = 1024 * 1024
 MAX_FILE = 50 * 1024 * 1024
 MAX_PACK = 250 * 1024 * 1024
 LICENSES = {"CC0-1.0", "CC-BY-4.0", "CC-BY-SA-4.0", "MIT", "Apache-2.0", "BSD-3-Clause", "ISC", "OFL-1.1"}
@@ -61,6 +62,8 @@ def repo_file(relative: object, prefix: str) -> tuple[Path, str]:
 def validate_pack(pack: object, seen_pack_versions: set[str], seen_assets: set[str]) -> None:
     if not isinstance(pack, dict):
         fail("cada paquete debe ser un objeto JSON")
+    if set(pack) - {"id", "name", "description", "author", "version", "license", "tags", "assets"}:
+        fail("el catálogo contiene campos de paquete desconocidos")
     author, pack_id, version = pack.get("author"), pack.get("id"), pack.get("version")
     if not is_slug(author) or not is_slug(pack_id):
         fail(f"autor o id no válido en el paquete: {pack.get('name', '?')}")
@@ -70,6 +73,9 @@ def validate_pack(pack: object, seen_pack_versions: set[str], seen_assets: set[s
         fail(f"nombre inválido en {author}/{pack_id}")
     if not isinstance(pack.get("description", ""), str) or len(pack.get("description", "")) > 4000:
         fail(f"descripción demasiado larga en {author}/{pack_id}")
+    tags = pack.get("tags", [])
+    if not isinstance(tags, list) or len(tags) > 40 or any(not isinstance(tag, str) or len(tag) > 48 for tag in tags):
+        fail(f"etiquetas no válidas en {author}/{pack_id}")
     if pack.get("license") not in LICENSES:
         fail(f"licencia de redistribución no permitida en {author}/{pack_id}")
     key = f"{author}/{pack_id}/{version}"
@@ -87,7 +93,7 @@ def validate_pack(pack: object, seen_pack_versions: set[str], seen_assets: set[s
         if current.is_symlink():
             fail(f"la ruta del paquete atraviesa un enlace simbólico: {expected_prefix}")
     manifest_file = version_dir / "pack.json"
-    if not manifest_file.is_file():
+    if not manifest_file.is_file() or manifest_file.stat().st_size > MAX_MANIFEST:
         fail(f"falta {expected_prefix}/pack.json")
     manifest = json.loads(manifest_file.read_text(encoding="utf-8"))
     for field in ("id", "name", "author", "version", "license"):
@@ -100,6 +106,8 @@ def validate_pack(pack: object, seen_pack_versions: set[str], seen_assets: set[s
     for item in assets:
         if not isinstance(item, dict):
             fail(f"recurso inválido en {key}")
+        if set(item) - {"id", "name", "type", "description", "path", "sha256", "size", "min_app_version", "attribution"}:
+            fail(f"el recurso contiene campos desconocidos en {key}")
         asset_id = item.get("id")
         if not is_slug(asset_id) or len(asset_id) > 80:
             fail(f"id de recurso inválido en {key}")
@@ -127,10 +135,17 @@ def validate_pack(pack: object, seen_pack_versions: set[str], seen_assets: set[s
         if not isinstance(item.get("sha256"), str) or not HEX.fullmatch(item["sha256"]) or digest != item["sha256"].lower():
             fail(f"SHA-256 incorrecto en {asset_key}")
         attribution = item.get("attribution")
-        if not isinstance(attribution, dict) or not isinstance(attribution.get("source"), str) or not attribution["source"].strip():
+        if not isinstance(attribution, dict) or set(attribution) != {"source", "license"} or not isinstance(attribution.get("source"), str) or not attribution["source"].strip() or len(attribution["source"]) > 1000:
             fail(f"falta procedencia en {asset_key}")
         if attribution.get("license") not in LICENSES:
             fail(f"falta una licencia redistribuible en {asset_key}")
+        if not isinstance(item.get("name"), str) or not item["name"].strip() or len(item["name"]) > 160:
+            fail(f"nombre no válido en {asset_key}")
+        if not isinstance(item.get("description", ""), str) or len(item.get("description", "")) > 2000:
+            fail(f"descripción no válida en {asset_key}")
+        minimum = item.get("min_app_version", "")
+        if not isinstance(minimum, str) or (minimum and not re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9A-Za-z.-]+)?", minimum)):
+            fail(f"min_app_version no válida en {asset_key}")
     for actual, expected in zip(manifest_assets, assets, strict=True):
         for field in ("id", "name", "type", "path", "size", "sha256", "attribution"):
             if actual.get(field) != expected.get(field):
@@ -147,7 +162,7 @@ def main() -> int:
         if len(raw) > MAX_CATALOGUE:
             fail("catalogue.json supera 2 MB")
         catalogue = json.loads(raw)
-        if not isinstance(catalogue, dict) or catalogue.get("schema") != 1 or not isinstance(catalogue.get("packs"), list):
+        if not isinstance(catalogue, dict) or set(catalogue) != {"schema", "packs"} or catalogue.get("schema") != 1 or not isinstance(catalogue.get("packs"), list):
             fail("formato de catálogo no compatible; se requiere schema 1 y packs[]")
         if len(catalogue["packs"]) > 2000:
             fail("el catálogo supera 2000 paquetes")
