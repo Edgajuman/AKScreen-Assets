@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Edgajuman/AKScreen-Assets/blob/main/schema/catalogue.schema.json",
+  "title": "AK Screen community asset catalogue",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "packs"],
+  "properties": {
+    "schema": { "const": 1 },
+    "packs": {
+      "type": "array",
+      "maxItems": 2000,
+      "items": { "$ref": "#/$defs/pack" }
+    }
+  },
+  "$defs": {
+    "pack": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "description", "author", "version", "license", "assets"],
+      "properties": {
+        "id": { "$ref": "#/$defs/slug" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 160 },
+        "description": { "type": "string", "maxLength": 4000 },
+        "author": { "$ref": "#/$defs/slug" },
+        "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[0-9A-Za-z.-]+)?$" },
+        "license": { "enum": ["CC0-1.0", "CC-BY-4.0", "CC-BY-SA-4.0", "MIT", "Apache-2.0", "BSD-3-Clause", "ISC", "OFL-1.1"] },
+        "tags": { "type": "array", "maxItems": 40, "items": { "type": "string", "maxLength": 48 } },
+        "assets": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 100,
+          "items": { "$ref": "#/$defs/asset" }
+        }
+      }
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "type", "description", "path", "sha256", "size", "attribution"],
+      "properties": {
+        "id": { "$ref": "#/$defs/slug" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 160 },
+        "type": { "enum": ["mediaVideo", "mediaAudio", "mediaImage", "textTemplate", "effectPreset", "transitionPreset", "filterPreset", "animationPreset", "lut"] },
+        "description": { "type": "string", "maxLength": 2000 },
+        "path": { "type": "string", "maxLength": 512, "pattern": "^packages/[a-z0-9-]+/[a-z0-9-]+/[0-9]+\\.[0-9]+\\.[0-9]+(?:-[0-9A-Za-z.-]+)?/[A-Za-z0-9_.-]+$" },
+        "sha256": { "type": "string", "pattern": "^[0-9a-fA-F]{64}$" },
+        "size": { "type": "integer", "minimum": 1, "maximum": 52428800 },
+        "min_app_version": { "type": "string", "maxLength": 32 },
+        "attribution": { "$ref": "#/$defs/attribution" }
+      }
+    },
+    "attribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "license"],
+      "properties": {
+        "source": { "type": "string", "minLength": 1, "maxLength": 1000 },
+        "license": { "enum": ["CC0-1.0", "CC-BY-4.0", "CC-BY-SA-4.0", "MIT", "Apache-2.0", "BSD-3-Clause", "ISC", "OFL-1.1"] }
+      }
+    },
+    "slug": { "type": "string", "maxLength": 80, "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" }
+  }
+}
