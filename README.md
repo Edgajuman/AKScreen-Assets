@@ -7,6 +7,9 @@
 - **Motion Essentials:** título con capas editables, tres transiciones, corrección, filtro y animación.
 - **Data Stories:** seis gráficos de datos animados y editables.
 - **Sound & Surfaces:** Essential Sound, fondo, GIF, sonido original y LUT.
+- **Loop Studies:** clip original de barras animadas, MP4 H.264, 640 × 360 y 30 FPS.
+
+Son **20 recursos en cuatro colecciones**, publicados por dehuman con licencia CC0-1.0.
 
 Dentro del editor: **Herramientas → Biblioteca comunitaria → Actualizar catálogo**. Descarga un recurso o el paquete completo; aparece en **Effects → Biblioteca · Descargas**. Las imágenes del catálogo son ilustraciones originales; las capturas reales del editor están en el repositorio de descargas.
 
