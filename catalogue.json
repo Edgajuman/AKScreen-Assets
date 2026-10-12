@@ -186,8 +186,8 @@
             "license": "CC0-1.0"
           },
           "path": "packages/edgajuman/motion-essentials/1.0.0/signature.fcgt",
-          "size": 4736,
-          "sha256": "c1fdff1656b3d3154efa0fcf86f31282273a5d07b9e5393d4a7977d5be089f53",
+          "size": 4495,
+          "sha256": "78b4cf0fdd07032510be80cf3777a11973e531e5520e47cf87c2e2003cc3c4a3",
           "preview": {
             "path": "packages/edgajuman/motion-essentials/1.0.0/signature-title-preview.png",
             "size": 12875,
@@ -262,8 +262,8 @@
             "license": "CC0-1.0"
           },
           "path": "packages/edgajuman/motion-essentials/1.0.0/clean-contrast.json",
-          "size": 730,
-          "sha256": "4263a8dde1bfada9f0850a918dee727ebd1fae17317064f9e2a9e5cbf8049da1",
+          "size": 696,
+          "sha256": "2944bc4b378320297846d8ecc3419dd5a1e6485e6a1b3e9c737a38cca57f1d21",
           "preview": {
             "path": "packages/edgajuman/motion-essentials/1.0.0/clean-contrast-preview.png",
             "size": 5912,
@@ -281,8 +281,8 @@
             "license": "CC0-1.0"
           },
           "path": "packages/edgajuman/motion-essentials/1.0.0/soft-focus.json",
-          "size": 606,
-          "sha256": "a97ee50edc6f1c645e1b6ebd5062123377dde5dccbbcf6c8d449a3c95419523d",
+          "size": 577,
+          "sha256": "8aa7758bf38e607100043264086a07d8c95e81e8118d4dd2a5dc41ae96d2aa66",
           "preview": {
             "path": "packages/edgajuman/motion-essentials/1.0.0/soft-focus-preview.png",
             "size": 5623,
@@ -300,8 +300,8 @@
             "license": "CC0-1.0"
           },
           "path": "packages/edgajuman/motion-essentials/1.0.0/fade-in.json",
-          "size": 1038,
-          "sha256": "24d46bca06933b1fc7c273e10e9672f3ff7570b0424aec9782adccf8ca479b70",
+          "size": 993,
+          "sha256": "152284528c69c4947eb3cd7b27c92fd3199e72c7584213821df5e40c2d335c60",
           "preview": {
             "path": "packages/edgajuman/motion-essentials/1.0.0/fade-in-preview.png",
             "size": 4860,
@@ -428,8 +428,8 @@
             "license": "CC0-1.0"
           },
           "path": "packages/edgajuman/sound-and-surfaces/1.0.0/neutral-soft.cube",
-          "size": 259,
-          "sha256": "089b1287c48d7dba2551d79af5f54cd9fc854289a4e30e6caf4199bafd7d21e2",
+          "size": 247,
+          "sha256": "b102bc6722e6b6911c69ecda076a87056e6fbbd1b96602bcbff921ca6bec5b6c",
           "preview": {
             "path": "packages/edgajuman/sound-and-surfaces/1.0.0/neutral-soft-preview.png",
             "size": 6342,

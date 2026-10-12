@@ -1,0 +1,2 @@
+# Resource metadata hashes exact bytes; Git must not convert their line endings.
+packages/** -text
