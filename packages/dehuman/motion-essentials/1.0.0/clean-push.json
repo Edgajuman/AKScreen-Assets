@@ -1,0 +1,6 @@
+{
+  "format": "akscreen.transition-preset",
+  "effect": "push",
+  "seconds": 0.45,
+  "params": {}
+}

@@ -20,6 +20,9 @@ KINDS = {
     "mediaAudio": {"wav", "mp3", "flac", "ogg"},
     "mediaImage": {"png", "jpg", "jpeg", "webp", "gif"},
     "textTemplate": {"fcgt"},
+    "essentialGraphics": {"fcgt"},
+    "essentialSound": {"json"},
+    "chartTemplate": {"akchart", "json"},
     "effectPreset": {"json"},
     "transitionPreset": {"json"},
     "filterPreset": {"json"},
@@ -106,7 +109,7 @@ def validate_pack(pack: object, seen_pack_versions: set[str], seen_assets: set[s
     for item in assets:
         if not isinstance(item, dict):
             fail(f"recurso inválido en {key}")
-        if set(item) - {"id", "name", "type", "description", "path", "sha256", "size", "min_app_version", "attribution"}:
+        if set(item) - {"id", "name", "type", "description", "path", "sha256", "size", "min_app_version", "attribution", "preview"}:
             fail(f"el recurso contiene campos desconocidos en {key}")
         asset_id = item.get("id")
         if not is_slug(asset_id) or len(asset_id) > 80:
@@ -146,11 +149,23 @@ def validate_pack(pack: object, seen_pack_versions: set[str], seen_assets: set[s
         minimum = item.get("min_app_version", "")
         if not isinstance(minimum, str) or (minimum and not re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9A-Za-z.-]+)?", minimum)):
             fail(f"min_app_version no válida en {asset_key}")
+        preview = item.get("preview")
+        if preview is not None:
+            if not isinstance(preview, dict) or set(preview) != {"path", "size", "sha256"}:
+                fail(f"vista previa no válida en {asset_key}")
+            image, extension = repo_file(preview["path"], expected_prefix)
+            raw = image.read_bytes()
+            if extension not in {"png", "jpg", "jpeg", "webp", "svg"} or not 0 < len(raw) <= 2 * 1024 * 1024 or preview["size"] != len(raw):
+                fail(f"tamaño o formato de vista previa no válido en {asset_key}")
+            if not isinstance(preview["sha256"], str) or not HEX.fullmatch(preview["sha256"]) or hashlib.sha256(raw).hexdigest() != preview["sha256"].lower():
+                fail(f"SHA-256 de vista previa incorrecto en {asset_key}")
     for actual, expected in zip(manifest_assets, assets, strict=True):
-        for field in ("id", "name", "type", "path", "size", "sha256", "attribution"):
+        for field in ("id", "name", "type", "path", "size", "sha256", "attribution", "preview"):
             if actual.get(field) != expected.get(field):
                 fail(f"pack.json no coincide con catalogue.json para {key}/{expected.get('id')}")
     allowed_files = {"pack.json"} | {Path(item["path"]).name for item in assets}
+    allowed_files |= {Path(item["preview"]["path"]).name for item in assets if item.get("preview")}
+    allowed_files |= {"LICENSE.txt"} | {Path(item["path"]).name + ".attribution" for item in assets}
     for child in version_dir.iterdir():
         if child.name not in allowed_files or child.is_symlink() or not child.is_file():
             fail(f"archivo adicional o ruta insegura en {expected_prefix}: {child.name}")

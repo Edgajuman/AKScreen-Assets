@@ -1,0 +1,9 @@
+{
+  "format": "akscreen.essential-sound",
+  "type": "ambience",
+  "values": {
+    "creative.width.on": true,
+    "creative.width.amount": 2.0,
+    "volume": -6.0
+  }
+}

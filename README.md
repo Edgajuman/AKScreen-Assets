@@ -1,4 +1,17 @@
-# AK Screen Assets
+# AK Screen · Biblioteca
+
+[**Explorar catálogo web →**](https://edgajuman.github.io/AKScreen-Assets/) · [Descargar AK Screen](https://github.com/Edgajuman/AKScreen-Downloads/releases/tag/ak-v2.4.0)
+
+## Colecciones de dehuman para 2.4.0
+
+- **Motion Essentials:** título con capas editables, tres transiciones, corrección, filtro y animación.
+- **Data Stories:** seis gráficos de datos animados y editables.
+- **Sound & Surfaces:** Essential Sound, fondo, GIF, sonido original y LUT.
+
+Dentro del editor: **Herramientas → Biblioteca comunitaria → Actualizar catálogo**. Descarga un recurso o el paquete completo; aparece en **Effects → Biblioteca · Descargas**. Las imágenes del catálogo son ilustraciones originales; las capturas reales del editor están en el repositorio de descargas.
+
+![Data Stories](packages/dehuman/data-stories/1.0.0/bars-preview.png)
+
 
 Biblioteca comunitaria de recursos aprobados para AK Screen: medios pequeños, plantillas de títulos,
 presets de efectos, transiciones, filtros, LUT y animaciones. Los paquetes pueden agrupar recursos de
@@ -23,7 +36,9 @@ scripts ni código de plugins.
 | Vídeo | MP4, WebM, MOV, MKV |
 | Audio | WAV, MP3, FLAC, OGG |
 | Imagen | PNG, JPEG, WebP, GIF |
-| Plantilla de título | `.fcgt` propio de AK Screen |
+| Título / Essential Graphics | `.fcgt` propio de AK Screen |
+| Essential Sound | JSON `akscreen.essential-sound` |
+| Gráfico de datos | `.akchart` con datos y apariencia |
 | Preset de efecto, transición, filtro o animación | JSON de presets compatibles |
 | LUT | `.cube` |
 

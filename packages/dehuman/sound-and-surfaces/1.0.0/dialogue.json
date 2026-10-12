@@ -1,0 +1,12 @@
+{
+  "format": "akscreen.essential-sound",
+  "type": "dialogue",
+  "values": {
+    "repair.noise.on": true,
+    "repair.noise.amount": 2.0,
+    "repair.rumble.on": true,
+    "repair.rumble.amount": 3.0,
+    "clarity.dynamics.on": true,
+    "clarity.dynamics.amount": 3.0
+  }
+}

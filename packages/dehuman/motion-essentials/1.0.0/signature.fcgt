@@ -1,0 +1,241 @@
+{
+  "format": "filmcraft.graphicsTemplate",
+  "version": 1,
+  "id": "dehuman:signature-lower-third",
+  "name": "Signature Lower Third",
+  "category": "dehuman",
+  "author": "dehuman",
+  "license": "CC0-1.0",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "duration": 1524096000000,
+  "layers": [
+    {
+      "effect": "graphic_shape",
+      "enabled": true,
+      "params": {
+        "name": {
+          "value": {
+            "Text": "Accent"
+          }
+        },
+        "shape": {
+          "value": {
+            "Choice": 0
+          }
+        },
+        "size": {
+          "value": {
+            "Vec2": {
+              "x": 12,
+              "y": 144
+            }
+          }
+        },
+        "position": {
+          "value": {
+            "Vec2": {
+              "x": 156,
+              "y": 815
+            }
+          }
+        },
+        "fill_color": {
+          "value": {
+            "Color": [
+              0.24,
+              0.68,
+              1,
+              1
+            ]
+          }
+        },
+        "opacity": {
+          "value": {
+            "Float": 100
+          },
+          "keyframes": [
+            {
+              "time": 0,
+              "value": {
+                "Float": 0
+              },
+              "interp": "EaseOut"
+            },
+            {
+              "time": 254016000000,
+              "value": {
+                "Float": 100
+              },
+              "interp": "Linear"
+            }
+          ]
+        }
+      },
+      "layer": {
+        "uid": 1
+      }
+    },
+    {
+      "effect": "graphic_text",
+      "enabled": true,
+      "params": {
+        "name": {
+          "value": {
+            "Text": "Title"
+          }
+        },
+        "text": {
+          "value": {
+            "Text": "DEHUMAN"
+          }
+        },
+        "size": {
+          "value": {
+            "Float": 76
+          }
+        },
+        "font": {
+          "value": {
+            "Text": "Inter"
+          }
+        },
+        "position": {
+          "value": {
+            "Vec2": {
+              "x": 190,
+              "y": 808
+            }
+          }
+        },
+        "fill_color": {
+          "value": {
+            "Color": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "opacity": {
+          "value": {
+            "Float": 100
+          },
+          "keyframes": [
+            {
+              "time": 0,
+              "value": {
+                "Float": 0
+              },
+              "interp": "EaseOut"
+            },
+            {
+              "time": 254016000000,
+              "value": {
+                "Float": 100
+              },
+              "interp": "Linear"
+            }
+          ]
+        }
+      },
+      "layer": {
+        "uid": 2
+      }
+    },
+    {
+      "effect": "graphic_text",
+      "enabled": true,
+      "params": {
+        "name": {
+          "value": {
+            "Text": "Subtitle"
+          }
+        },
+        "text": {
+          "value": {
+            "Text": "Diseño y movimiento"
+          }
+        },
+        "size": {
+          "value": {
+            "Float": 35
+          }
+        },
+        "font": {
+          "value": {
+            "Text": "Inter"
+          }
+        },
+        "position": {
+          "value": {
+            "Vec2": {
+              "x": 190,
+              "y": 878
+            }
+          }
+        },
+        "fill_color": {
+          "value": {
+            "Color": [
+              0.24,
+              0.68,
+              1,
+              1
+            ]
+          }
+        },
+        "opacity": {
+          "value": {
+            "Float": 100
+          },
+          "keyframes": [
+            {
+              "time": 0,
+              "value": {
+                "Float": 0
+              },
+              "interp": "EaseOut"
+            },
+            {
+              "time": 254016000000,
+              "value": {
+                "Float": 100
+              },
+              "interp": "Linear"
+            }
+          ]
+        }
+      },
+      "layer": {
+        "uid": 3
+      }
+    }
+  ],
+  "controls": [
+    {
+      "id": "title",
+      "name": "Título",
+      "kind": "text",
+      "layer": 2,
+      "param": "text"
+    },
+    {
+      "id": "subtitle",
+      "name": "Subtítulo",
+      "kind": "text",
+      "layer": 3,
+      "param": "text"
+    },
+    {
+      "id": "accent",
+      "name": "Acento",
+      "kind": "color",
+      "layer": 1,
+      "param": "fill_color"
+    }
+  ]
+}

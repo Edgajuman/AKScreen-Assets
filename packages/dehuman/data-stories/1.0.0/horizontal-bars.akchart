@@ -1,0 +1,41 @@
+{
+  "title": "Resultados por región",
+  "subtitle": "Datos de ejemplo · edítalos libremente",
+  "kind": "horizontalBars",
+  "duration": 6,
+  "animated": true,
+  "animation_seconds": 1.2,
+  "stagger": 0.12,
+  "data": [
+    {
+      "label": "2025",
+      "value": 50,
+      "color": [
+        0.24,
+        0.68,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "2026",
+      "value": 80,
+      "color": [
+        0.4,
+        0.85,
+        0.7,
+        1
+      ]
+    },
+    {
+      "label": "2027",
+      "value": 65,
+      "color": [
+        0.72,
+        0.55,
+        1,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "format": "filmcraft.effect-presets",
+  "version": 1,
+  "presets": [
+    {
+      "name": "dehuman · Fade In",
+      "description": "Original reusable preset by dehuman",
+      "keyframes": "Scale",
+      "source_duration": 1524096000000,
+      "source_size": [
+        1920,
+        1080
+      ],
+      "effects": [
+        {
+          "effect": "opacity",
+          "enabled": true,
+          "params": {
+            "opacity": {
+              "value": {
+                "Float": 100
+              },
+              "keyframes": [
+                {
+                  "time": 0,
+                  "value": {
+                    "Float": 0
+                  },
+                  "interp": "EaseOut"
+                },
+                {
+                  "time": 254016000000,
+                  "value": {
+                    "Float": 100
+                  },
+                  "interp": "Linear"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

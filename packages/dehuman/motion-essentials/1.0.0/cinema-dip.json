@@ -1,0 +1,6 @@
+{
+  "format": "akscreen.transition-preset",
+  "effect": "dip_to_black",
+  "seconds": 0.6,
+  "params": {}
+}

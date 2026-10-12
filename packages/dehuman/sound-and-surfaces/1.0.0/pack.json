@@ -1,0 +1,128 @@
+{
+  "id": "sound-and-surfaces",
+  "name": "Sound & Surfaces",
+  "description": "Sonido y fondos originales, junto a ajustes reutilizables de Essential Sound.",
+  "author": "dehuman",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "tags": [
+    "dehuman",
+    "2.4"
+  ],
+  "assets": [
+    {
+      "id": "clean-dialogue",
+      "name": "Clean Dialogue",
+      "type": "essentialSound",
+      "description": "Corrección ligera de ruido, rumble y dinámica. Revisa el resultado según tu grabación.",
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "source": "original work by dehuman",
+        "license": "CC0-1.0"
+      },
+      "path": "packages/dehuman/sound-and-surfaces/1.0.0/dialogue.json",
+      "size": 276,
+      "sha256": "318bf0d9e578d43cfa45c832788d67268ebe660b9e3a091056570b8c2c3db76f",
+      "preview": {
+        "path": "packages/dehuman/sound-and-surfaces/1.0.0/clean-dialogue-preview.png",
+        "size": 9620,
+        "sha256": "66edd62fcc514f269da2dd7f9936ee5dc762662a6032ab6aade7222efbce49e0"
+      }
+    },
+    {
+      "id": "wide-ambience",
+      "name": "Wide Ambience",
+      "type": "essentialSound",
+      "description": "Ambiente con amplitud estéreo y menor volumen; ajustes editables.",
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "source": "original work by dehuman",
+        "license": "CC0-1.0"
+      },
+      "path": "packages/dehuman/sound-and-surfaces/1.0.0/ambience.json",
+      "size": 168,
+      "sha256": "c369ccaa6769d72456d8f29cb26e01ebea1e8ff129cce515f5331e5f8544679f",
+      "preview": {
+        "path": "packages/dehuman/sound-and-surfaces/1.0.0/wide-ambience-preview.png",
+        "size": 9854,
+        "sha256": "7f33b84ef2fb40876b1d33ba1ce073d3b3831dc3ce713708a1c93b8419ee3cf3"
+      }
+    },
+    {
+      "id": "blue-surface",
+      "name": "Blue Surface",
+      "type": "mediaImage",
+      "description": "Fondo original 1280×720; puede usarse como imagen o fondo del editor.",
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "source": "original work by dehuman",
+        "license": "CC0-1.0"
+      },
+      "path": "packages/dehuman/sound-and-surfaces/1.0.0/blue-surface.webp",
+      "size": 3904,
+      "sha256": "eed6d969348e80585d23d8d2721a700c0e318fa5d9b764c86310d2ab96a1b0e8",
+      "preview": {
+        "path": "packages/dehuman/sound-and-surfaces/1.0.0/blue-surface-preview.png",
+        "size": 12350,
+        "sha256": "8bf5c8e3d649a9e1e1c61673d258cb1bb286aae6361106a41e9d86a737358cf2"
+      }
+    },
+    {
+      "id": "animated-bars",
+      "name": "Animated Bars · GIF",
+      "type": "mediaImage",
+      "description": "Animación original; para datos editables usa el paquete Data Stories.",
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "source": "original work by dehuman",
+        "license": "CC0-1.0"
+      },
+      "path": "packages/dehuman/sound-and-surfaces/1.0.0/animated-bars.gif",
+      "size": 39484,
+      "sha256": "a6da224f1d8bb57f680a44b99392472dc3a5680977da1b921c51b8a8da202662",
+      "preview": {
+        "path": "packages/dehuman/sound-and-surfaces/1.0.0/animated-bars-preview.png",
+        "size": 13549,
+        "sha256": "908010737f66ec1682c4caa8b23efb231dca17051f16913f68eb31db6d271601"
+      }
+    },
+    {
+      "id": "gentle-chime",
+      "name": "Gentle Chime",
+      "type": "mediaAudio",
+      "description": "Aviso musical original de 1,2 s, mono, 48 kHz. CC0.",
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "source": "original work by dehuman",
+        "license": "CC0-1.0"
+      },
+      "path": "packages/dehuman/sound-and-surfaces/1.0.0/gentle-chime.wav",
+      "size": 115244,
+      "sha256": "2f9ba93e0a3703410accfedb42cb2912ba6aae265f463d0c366f85d0a04b6de6",
+      "preview": {
+        "path": "packages/dehuman/sound-and-surfaces/1.0.0/gentle-chime-preview.png",
+        "size": 8973,
+        "sha256": "262851d32e619d1e5843e86c8125ebd37b8357510cb0f079af337f6023c914b8"
+      }
+    },
+    {
+      "id": "neutral-soft",
+      "name": "Neutral Soft LUT",
+      "type": "lut",
+      "description": "LUT original suave, tamaño 2³; ajuste base, no sustituye una corrección de color.",
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "source": "original work by dehuman",
+        "license": "CC0-1.0"
+      },
+      "path": "packages/dehuman/sound-and-surfaces/1.0.0/neutral-soft.cube",
+      "size": 245,
+      "sha256": "746c524efa4cf1851d4b113562fe50aa6bf91a1e2d46f2f8350246d2fac163e0",
+      "preview": {
+        "path": "packages/dehuman/sound-and-surfaces/1.0.0/neutral-soft-preview.png",
+        "size": 6342,
+        "sha256": "83a3c475516a27659debe8543ce253a9bc2762c5e7aa376e9252837ae8ba4c82"
+      }
+    }
+  ]
+}

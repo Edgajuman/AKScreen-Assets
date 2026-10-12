@@ -1,0 +1,128 @@
+{
+  "id": "data-stories",
+  "name": "Data Stories",
+  "description": "Seis plantillas de gráficos de datos para informes, comparaciones y motion graphics.",
+  "author": "dehuman",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "tags": [
+    "dehuman",
+    "2.4"
+  ],
+  "assets": [
+    {
+      "id": "bars",
+      "name": "Ventas anuales",
+      "type": "chartTemplate",
+      "description": "Datos, color, tipo y animación editables en Herramientas → Gráficos interactivos.",
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "source": "original work by dehuman",
+        "license": "CC0-1.0"
+      },
+      "path": "packages/dehuman/data-stories/1.0.0/bars.akchart",
+      "size": 596,
+      "sha256": "79db0a419f50949ca6085bd7ec1f300175e7cad8eee8fcf2b4055ba056a26bac",
+      "preview": {
+        "path": "packages/dehuman/data-stories/1.0.0/bars-preview.png",
+        "size": 5722,
+        "sha256": "46dd7c2d64ecdf379bea51d274f33ff7829642f27ddecc6b4a162096ded34384"
+      }
+    },
+    {
+      "id": "horizontal-bars",
+      "name": "Resultados por región",
+      "type": "chartTemplate",
+      "description": "Datos, color, tipo y animación editables en Herramientas → Gráficos interactivos.",
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "source": "original work by dehuman",
+        "license": "CC0-1.0"
+      },
+      "path": "packages/dehuman/data-stories/1.0.0/horizontal-bars.akchart",
+      "size": 614,
+      "sha256": "a3e4cf6694244af4ca8a002f12e0712ff8e32f35d5a7356414accb9ff1453483",
+      "preview": {
+        "path": "packages/dehuman/data-stories/1.0.0/horizontal-bars-preview.png",
+        "size": 7254,
+        "sha256": "f7af864fa5375cdc81c44d21c57ab5420c79557d6d3fc863d866c304576eec5e"
+      }
+    },
+    {
+      "id": "line",
+      "name": "Evolución trimestral",
+      "type": "chartTemplate",
+      "description": "Datos, color, tipo y animación editables en Herramientas → Gráficos interactivos.",
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "source": "original work by dehuman",
+        "license": "CC0-1.0"
+      },
+      "path": "packages/dehuman/data-stories/1.0.0/line.akchart",
+      "size": 603,
+      "sha256": "34c9910519f0f88f22f6674921a07453e95f61128e24530eeb2d38800aaa8aab",
+      "preview": {
+        "path": "packages/dehuman/data-stories/1.0.0/line-preview.png",
+        "size": 6715,
+        "sha256": "f417140130bcb9f2bd2f8350086bae6baaf7dda08d59c79e3ccb9a1efeb897b2"
+      }
+    },
+    {
+      "id": "pie",
+      "name": "Distribución",
+      "type": "chartTemplate",
+      "description": "Datos, color, tipo y animación editables en Herramientas → Gráficos interactivos.",
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "source": "original work by dehuman",
+        "license": "CC0-1.0"
+      },
+      "path": "packages/dehuman/data-stories/1.0.0/pie.akchart",
+      "size": 594,
+      "sha256": "1dda760145cfae6e2dc50762343187481462140af00659290162fa145b3d60df",
+      "preview": {
+        "path": "packages/dehuman/data-stories/1.0.0/pie-preview.png",
+        "size": 5951,
+        "sha256": "739701400438b051c698a6ff701bc50679c8f1d34612b52da6874819b71ed5a9"
+      }
+    },
+    {
+      "id": "donut",
+      "name": "Participación",
+      "type": "chartTemplate",
+      "description": "Datos, color, tipo y animación editables en Herramientas → Gráficos interactivos.",
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "source": "original work by dehuman",
+        "license": "CC0-1.0"
+      },
+      "path": "packages/dehuman/data-stories/1.0.0/donut.akchart",
+      "size": 597,
+      "sha256": "414f3adbf23bbca982f1885ce8ecd34f6250e8c8e329a21080810af6ccddf7c6",
+      "preview": {
+        "path": "packages/dehuman/data-stories/1.0.0/donut-preview.png",
+        "size": 5773,
+        "sha256": "23a8d9c80fb1d9db6de973b94f713522ce41a7638533e65357dfc183e03762c7"
+      }
+    },
+    {
+      "id": "timeline",
+      "name": "Hitos del proyecto",
+      "type": "chartTemplate",
+      "description": "Datos, color, tipo y animación editables en Herramientas → Gráficos interactivos.",
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "source": "original work by dehuman",
+        "license": "CC0-1.0"
+      },
+      "path": "packages/dehuman/data-stories/1.0.0/timeline.akchart",
+      "size": 604,
+      "sha256": "5da58184a797a476e26e3248060790ca20eab1cdea73384d659ccaf9935bac62",
+      "preview": {
+        "path": "packages/dehuman/data-stories/1.0.0/timeline-preview.png",
+        "size": 6461,
+        "sha256": "f642aeee626bedbb794c6249c0d25fc8504dfcbfb3c98d20e77effb0d0c75a0c"
+      }
+    }
+  ]
+}

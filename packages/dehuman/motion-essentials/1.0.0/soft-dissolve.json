@@ -1,0 +1,6 @@
+{
+  "format": "akscreen.transition-preset",
+  "effect": "cross_dissolve",
+  "seconds": 0.65,
+  "params": {}
+}
