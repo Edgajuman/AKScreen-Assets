@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "loop-studies",
+  "name": "Loop Studies",
+  "description": "Clips breves originales para importar, reproducir y combinar con gráficos editables.",
+  "author": "dehuman",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "tags": [
+    "dehuman",
+    "video",
+    "2.4"
+  ],
+  "assets": [
+    {
+      "id": "data-motion",
+      "name": "Data Motion",
+      "type": "mediaVideo",
+      "description": "Clip original de barras animadas en MP4 H.264, 640 × 360 y 30 FPS. Para editar los datos usa Data Stories.",
+      "path": "packages/dehuman/loop-studies/1.0.0/data-motion.mp4",
+      "sha256": "364d9f82fe0812e3da590f0fe699b558fe0a886920e8f92b35a9921b14481916",
+      "size": 9535,
+      "min_app_version": "2.4.0",
+      "attribution": {
+        "license": "CC0-1.0",
+        "source": "original work by dehuman"
+      },
+      "preview": {
+        "path": "packages/dehuman/loop-studies/1.0.0/data-motion-preview.png",
+        "sha256": "908010737f66ec1682c4caa8b23efb231dca17051f16913f68eb31db6d271601",
+        "size": 13549
+      }
+    }
+  ]
+}
