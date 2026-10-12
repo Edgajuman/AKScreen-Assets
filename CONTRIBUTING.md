@@ -68,4 +68,4 @@ editar los formatos internos a mano salvo que conozcas su esquema.
 
 Usa `essentialGraphics` para plantillas .fcgt, `essentialSound` para ajustes JSON de audio y `chartTemplate` para .akchart. Un preset de transición contiene `format: akscreen.transition-preset`, `effect` (ID real del motor), `seconds` y `params`. Los demás presets conservan el formato de exportación del editor.
 
-Cada recurso puede declarar `preview: {path, size, sha256}`: PNG, JPEG, WebP o SVG dentro de la misma carpeta, hasta 2 MiB. La imagen debe ser tuya o redistribuible. Describe si es ilustrativa. No incluyas claves, scripts o ejecutables. Mira las tres colecciones de dehuman para ejemplos completos.
+Cada recurso puede declarar `preview: {path, size, sha256}`: PNG, JPEG, WebP o SVG dentro de la misma carpeta, hasta 2 MiB. La imagen debe ser tuya o redistribuible. Describe si es ilustrativa. No incluyas claves, scripts o ejecutables. Mira las tres colecciones de edgajuman para ejemplos completos.

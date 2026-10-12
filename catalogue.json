@@ -5,11 +5,11 @@
       "id": "data-stories",
       "name": "Data Stories",
       "description": "Seis plantillas de gráficos de datos para informes, comparaciones y motion graphics.",
-      "author": "dehuman",
+      "author": "edgajuman",
       "version": "1.0.0",
       "license": "CC0-1.0",
       "tags": [
-        "dehuman",
+        "edgajuman",
         "2.4"
       ],
       "assets": [
@@ -20,14 +20,14 @@
           "description": "Datos, color, tipo y animación editables en Herramientas → Gráficos interactivos.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/data-stories/1.0.0/bars.akchart",
+          "path": "packages/edgajuman/data-stories/1.0.0/bars.akchart",
           "size": 596,
           "sha256": "79db0a419f50949ca6085bd7ec1f300175e7cad8eee8fcf2b4055ba056a26bac",
           "preview": {
-            "path": "packages/dehuman/data-stories/1.0.0/bars-preview.png",
+            "path": "packages/edgajuman/data-stories/1.0.0/bars-preview.png",
             "size": 5722,
             "sha256": "46dd7c2d64ecdf379bea51d274f33ff7829642f27ddecc6b4a162096ded34384"
           }
@@ -39,14 +39,14 @@
           "description": "Datos, color, tipo y animación editables en Herramientas → Gráficos interactivos.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/data-stories/1.0.0/horizontal-bars.akchart",
+          "path": "packages/edgajuman/data-stories/1.0.0/horizontal-bars.akchart",
           "size": 614,
           "sha256": "a3e4cf6694244af4ca8a002f12e0712ff8e32f35d5a7356414accb9ff1453483",
           "preview": {
-            "path": "packages/dehuman/data-stories/1.0.0/horizontal-bars-preview.png",
+            "path": "packages/edgajuman/data-stories/1.0.0/horizontal-bars-preview.png",
             "size": 7254,
             "sha256": "f7af864fa5375cdc81c44d21c57ab5420c79557d6d3fc863d866c304576eec5e"
           }
@@ -58,14 +58,14 @@
           "description": "Datos, color, tipo y animación editables en Herramientas → Gráficos interactivos.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/data-stories/1.0.0/line.akchart",
+          "path": "packages/edgajuman/data-stories/1.0.0/line.akchart",
           "size": 603,
           "sha256": "34c9910519f0f88f22f6674921a07453e95f61128e24530eeb2d38800aaa8aab",
           "preview": {
-            "path": "packages/dehuman/data-stories/1.0.0/line-preview.png",
+            "path": "packages/edgajuman/data-stories/1.0.0/line-preview.png",
             "size": 6715,
             "sha256": "f417140130bcb9f2bd2f8350086bae6baaf7dda08d59c79e3ccb9a1efeb897b2"
           }
@@ -77,14 +77,14 @@
           "description": "Datos, color, tipo y animación editables en Herramientas → Gráficos interactivos.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/data-stories/1.0.0/pie.akchart",
+          "path": "packages/edgajuman/data-stories/1.0.0/pie.akchart",
           "size": 594,
           "sha256": "1dda760145cfae6e2dc50762343187481462140af00659290162fa145b3d60df",
           "preview": {
-            "path": "packages/dehuman/data-stories/1.0.0/pie-preview.png",
+            "path": "packages/edgajuman/data-stories/1.0.0/pie-preview.png",
             "size": 5951,
             "sha256": "739701400438b051c698a6ff701bc50679c8f1d34612b52da6874819b71ed5a9"
           }
@@ -96,14 +96,14 @@
           "description": "Datos, color, tipo y animación editables en Herramientas → Gráficos interactivos.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/data-stories/1.0.0/donut.akchart",
+          "path": "packages/edgajuman/data-stories/1.0.0/donut.akchart",
           "size": 597,
           "sha256": "414f3adbf23bbca982f1885ce8ecd34f6250e8c8e329a21080810af6ccddf7c6",
           "preview": {
-            "path": "packages/dehuman/data-stories/1.0.0/donut-preview.png",
+            "path": "packages/edgajuman/data-stories/1.0.0/donut-preview.png",
             "size": 5773,
             "sha256": "23a8d9c80fb1d9db6de973b94f713522ce41a7638533e65357dfc183e03762c7"
           }
@@ -115,14 +115,14 @@
           "description": "Datos, color, tipo y animación editables en Herramientas → Gráficos interactivos.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/data-stories/1.0.0/timeline.akchart",
+          "path": "packages/edgajuman/data-stories/1.0.0/timeline.akchart",
           "size": 604,
           "sha256": "5da58184a797a476e26e3248060790ca20eab1cdea73384d659ccaf9935bac62",
           "preview": {
-            "path": "packages/dehuman/data-stories/1.0.0/timeline-preview.png",
+            "path": "packages/edgajuman/data-stories/1.0.0/timeline-preview.png",
             "size": 6461,
             "sha256": "f642aeee626bedbb794c6249c0d25fc8504dfcbfb3c98d20e77effb0d0c75a0c"
           }
@@ -133,11 +133,11 @@
       "id": "loop-studies",
       "name": "Loop Studies",
       "description": "Clips breves originales para importar, reproducir y combinar con gráficos editables.",
-      "author": "dehuman",
+      "author": "edgajuman",
       "version": "1.0.0",
       "license": "CC0-1.0",
       "tags": [
-        "dehuman",
+        "edgajuman",
         "video",
         "2.4"
       ],
@@ -147,16 +147,16 @@
           "name": "Data Motion",
           "type": "mediaVideo",
           "description": "Clip original de barras animadas en MP4 H.264, 640 × 360 y 30 FPS. Para editar los datos usa Data Stories.",
-          "path": "packages/dehuman/loop-studies/1.0.0/data-motion.mp4",
+          "path": "packages/edgajuman/loop-studies/1.0.0/data-motion.mp4",
           "sha256": "364d9f82fe0812e3da590f0fe699b558fe0a886920e8f92b35a9921b14481916",
           "size": 9535,
           "min_app_version": "2.4.0",
           "attribution": {
             "license": "CC0-1.0",
-            "source": "original work by dehuman"
+            "source": "original work by edgajuman"
           },
           "preview": {
-            "path": "packages/dehuman/loop-studies/1.0.0/data-motion-preview.png",
+            "path": "packages/edgajuman/loop-studies/1.0.0/data-motion-preview.png",
             "sha256": "908010737f66ec1682c4caa8b23efb231dca17051f16913f68eb31db6d271601",
             "size": 13549
           }
@@ -167,11 +167,11 @@
       "id": "motion-essentials",
       "name": "Motion Essentials",
       "description": "Títulos, transiciones, animaciones y correcciones originales, editables en el editor.",
-      "author": "dehuman",
+      "author": "edgajuman",
       "version": "1.0.0",
       "license": "CC0-1.0",
       "tags": [
-        "dehuman",
+        "edgajuman",
         "2.4"
       ],
       "assets": [
@@ -182,16 +182,16 @@
           "description": "Título y subtítulo con entrada animada; texto y acento editables en Essential Graphics.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/motion-essentials/1.0.0/signature.fcgt",
-          "size": 4487,
-          "sha256": "293527252ff3ced3032b7d87d1ad01a69a64714dfbd36e580a41d48fedd9e457",
+          "path": "packages/edgajuman/motion-essentials/1.0.0/signature.fcgt",
+          "size": 4736,
+          "sha256": "c1fdff1656b3d3154efa0fcf86f31282273a5d07b9e5393d4a7977d5be089f53",
           "preview": {
-            "path": "packages/dehuman/motion-essentials/1.0.0/signature-title-preview.png",
-            "size": 11927,
-            "sha256": "993a486b2135f24b11981657e55f34d5e49408e3173edbf147954acba32778de"
+            "path": "packages/edgajuman/motion-essentials/1.0.0/signature-title-preview.png",
+            "size": 12875,
+            "sha256": "9f5f727647da73a664e4ac3f77b2cd81b1efc4aa19975ddcf075f6971dda6485"
           }
         },
         {
@@ -201,14 +201,14 @@
           "description": "Selecciona un corte o clip y aplica la transición; duración editable.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/motion-essentials/1.0.0/soft-dissolve.json",
+          "path": "packages/edgajuman/motion-essentials/1.0.0/soft-dissolve.json",
           "size": 110,
           "sha256": "74efb07375e1b2016c1e4fada001c745e0526fe20e84c236c55139f746714219",
           "preview": {
-            "path": "packages/dehuman/motion-essentials/1.0.0/soft-dissolve-preview.png",
+            "path": "packages/edgajuman/motion-essentials/1.0.0/soft-dissolve-preview.png",
             "size": 6145,
             "sha256": "dc0b73e925b73cec83059dc6185a413179ad4940d259d661d1d33f47d9394cab"
           }
@@ -220,14 +220,14 @@
           "description": "Selecciona un corte o clip y aplica la transición; duración editable.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/motion-essentials/1.0.0/clean-push.json",
+          "path": "packages/edgajuman/motion-essentials/1.0.0/clean-push.json",
           "size": 100,
           "sha256": "f585317d58cae1890c2e18d331846fbc080ad78a4b73ce9e5d8aebc1573ad870",
           "preview": {
-            "path": "packages/dehuman/motion-essentials/1.0.0/clean-push-preview.png",
+            "path": "packages/edgajuman/motion-essentials/1.0.0/clean-push-preview.png",
             "size": 5715,
             "sha256": "1e17aae9b96a661f9e31fb65a302bd863bec5ffac4ce999719337fab23b65a6e"
           }
@@ -239,14 +239,14 @@
           "description": "Selecciona un corte o clip y aplica la transición; duración editable.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/motion-essentials/1.0.0/cinema-dip.json",
+          "path": "packages/edgajuman/motion-essentials/1.0.0/cinema-dip.json",
           "size": 107,
           "sha256": "2e43b8f2faf28e1b140938aa2816e166224606fed4e3d8520cfd29ee93743b3d",
           "preview": {
-            "path": "packages/dehuman/motion-essentials/1.0.0/cinema-dip-preview.png",
+            "path": "packages/edgajuman/motion-essentials/1.0.0/cinema-dip-preview.png",
             "size": 5831,
             "sha256": "2886d7329f31da4ad409e9448f27f2080d3aa1fc7ac4b8f37de44a896aa1140a"
           }
@@ -258,14 +258,14 @@
           "description": "Preset editable; se aplica a los clips seleccionados y admite deshacer.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/motion-essentials/1.0.0/clean-contrast.json",
-          "size": 692,
-          "sha256": "d0b5cf3ec34c2ad637dd78af23e8947b0abd93122e352819530357aad3886be0",
+          "path": "packages/edgajuman/motion-essentials/1.0.0/clean-contrast.json",
+          "size": 730,
+          "sha256": "4263a8dde1bfada9f0850a918dee727ebd1fae17317064f9e2a9e5cbf8049da1",
           "preview": {
-            "path": "packages/dehuman/motion-essentials/1.0.0/clean-contrast-preview.png",
+            "path": "packages/edgajuman/motion-essentials/1.0.0/clean-contrast-preview.png",
             "size": 5912,
             "sha256": "50f3947ef9b5bd4d5b38cc5f76f6d233af3ad67a8747813c0e11ccce41799859"
           }
@@ -277,14 +277,14 @@
           "description": "Preset editable; se aplica a los clips seleccionados y admite deshacer.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/motion-essentials/1.0.0/soft-focus.json",
-          "size": 573,
-          "sha256": "23e7d3d8d61591e13a246905082db5de46da4d8b116ee33f795c3a6dacdd8afd",
+          "path": "packages/edgajuman/motion-essentials/1.0.0/soft-focus.json",
+          "size": 606,
+          "sha256": "a97ee50edc6f1c645e1b6ebd5062123377dde5dccbbcf6c8d449a3c95419523d",
           "preview": {
-            "path": "packages/dehuman/motion-essentials/1.0.0/soft-focus-preview.png",
+            "path": "packages/edgajuman/motion-essentials/1.0.0/soft-focus-preview.png",
             "size": 5623,
             "sha256": "3464fe71d9627e36c41c4e94634dbd2d9a97da8cb564ad5a2924c15008f80023"
           }
@@ -296,14 +296,14 @@
           "description": "Preset editable; se aplica a los clips seleccionados y admite deshacer.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/motion-essentials/1.0.0/fade-in.json",
-          "size": 989,
-          "sha256": "5e79ea92177654d025b5bfc735f8870e6631c3e808e29dbaf7bd7c5ea4e1d9fc",
+          "path": "packages/edgajuman/motion-essentials/1.0.0/fade-in.json",
+          "size": 1038,
+          "sha256": "24d46bca06933b1fc7c273e10e9672f3ff7570b0424aec9782adccf8ca479b70",
           "preview": {
-            "path": "packages/dehuman/motion-essentials/1.0.0/fade-in-preview.png",
+            "path": "packages/edgajuman/motion-essentials/1.0.0/fade-in-preview.png",
             "size": 4860,
             "sha256": "989019fc054043f277677c534879b9960e7b455d158d3d3d8e6f42a84800fdd8"
           }
@@ -314,11 +314,11 @@
       "id": "sound-and-surfaces",
       "name": "Sound & Surfaces",
       "description": "Sonido y fondos originales, junto a ajustes reutilizables de Essential Sound.",
-      "author": "dehuman",
+      "author": "edgajuman",
       "version": "1.0.0",
       "license": "CC0-1.0",
       "tags": [
-        "dehuman",
+        "edgajuman",
         "2.4"
       ],
       "assets": [
@@ -329,14 +329,14 @@
           "description": "Corrección ligera de ruido, rumble y dinámica. Revisa el resultado según tu grabación.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/sound-and-surfaces/1.0.0/dialogue.json",
+          "path": "packages/edgajuman/sound-and-surfaces/1.0.0/dialogue.json",
           "size": 276,
           "sha256": "318bf0d9e578d43cfa45c832788d67268ebe660b9e3a091056570b8c2c3db76f",
           "preview": {
-            "path": "packages/dehuman/sound-and-surfaces/1.0.0/clean-dialogue-preview.png",
+            "path": "packages/edgajuman/sound-and-surfaces/1.0.0/clean-dialogue-preview.png",
             "size": 9620,
             "sha256": "66edd62fcc514f269da2dd7f9936ee5dc762662a6032ab6aade7222efbce49e0"
           }
@@ -348,14 +348,14 @@
           "description": "Ambiente con amplitud estéreo y menor volumen; ajustes editables.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/sound-and-surfaces/1.0.0/ambience.json",
+          "path": "packages/edgajuman/sound-and-surfaces/1.0.0/ambience.json",
           "size": 176,
           "sha256": "a848cc6c5a56f0e323a787386ebb04b6fefd6d194c80e2692d118daa1f464cce",
           "preview": {
-            "path": "packages/dehuman/sound-and-surfaces/1.0.0/wide-ambience-preview.png",
+            "path": "packages/edgajuman/sound-and-surfaces/1.0.0/wide-ambience-preview.png",
             "size": 9854,
             "sha256": "7f33b84ef2fb40876b1d33ba1ce073d3b3831dc3ce713708a1c93b8419ee3cf3"
           }
@@ -367,14 +367,14 @@
           "description": "Fondo original 1280×720; puede usarse como imagen o fondo del editor.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/sound-and-surfaces/1.0.0/blue-surface.webp",
+          "path": "packages/edgajuman/sound-and-surfaces/1.0.0/blue-surface.webp",
           "size": 3904,
           "sha256": "eed6d969348e80585d23d8d2721a700c0e318fa5d9b764c86310d2ab96a1b0e8",
           "preview": {
-            "path": "packages/dehuman/sound-and-surfaces/1.0.0/blue-surface-preview.png",
+            "path": "packages/edgajuman/sound-and-surfaces/1.0.0/blue-surface-preview.png",
             "size": 12350,
             "sha256": "8bf5c8e3d649a9e1e1c61673d258cb1bb286aae6361106a41e9d86a737358cf2"
           }
@@ -386,14 +386,14 @@
           "description": "Animación original; para datos editables usa el paquete Data Stories.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/sound-and-surfaces/1.0.0/animated-bars.gif",
+          "path": "packages/edgajuman/sound-and-surfaces/1.0.0/animated-bars.gif",
           "size": 39484,
           "sha256": "a6da224f1d8bb57f680a44b99392472dc3a5680977da1b921c51b8a8da202662",
           "preview": {
-            "path": "packages/dehuman/sound-and-surfaces/1.0.0/animated-bars-preview.png",
+            "path": "packages/edgajuman/sound-and-surfaces/1.0.0/animated-bars-preview.png",
             "size": 13549,
             "sha256": "908010737f66ec1682c4caa8b23efb231dca17051f16913f68eb31db6d271601"
           }
@@ -405,14 +405,14 @@
           "description": "Aviso musical original de 1,2 s, mono, 48 kHz. CC0.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/sound-and-surfaces/1.0.0/gentle-chime.wav",
+          "path": "packages/edgajuman/sound-and-surfaces/1.0.0/gentle-chime.wav",
           "size": 115244,
           "sha256": "2f9ba93e0a3703410accfedb42cb2912ba6aae265f463d0c366f85d0a04b6de6",
           "preview": {
-            "path": "packages/dehuman/sound-and-surfaces/1.0.0/gentle-chime-preview.png",
+            "path": "packages/edgajuman/sound-and-surfaces/1.0.0/gentle-chime-preview.png",
             "size": 8973,
             "sha256": "262851d32e619d1e5843e86c8125ebd37b8357510cb0f079af337f6023c914b8"
           }
@@ -424,14 +424,14 @@
           "description": "LUT original suave, tamaño 2³; ajuste base, no sustituye una corrección de color.",
           "min_app_version": "2.4.0",
           "attribution": {
-            "source": "original work by dehuman",
+            "source": "original work by edgajuman",
             "license": "CC0-1.0"
           },
-          "path": "packages/dehuman/sound-and-surfaces/1.0.0/neutral-soft.cube",
-          "size": 245,
-          "sha256": "746c524efa4cf1851d4b113562fe50aa6bf91a1e2d46f2f8350246d2fac163e0",
+          "path": "packages/edgajuman/sound-and-surfaces/1.0.0/neutral-soft.cube",
+          "size": 259,
+          "sha256": "089b1287c48d7dba2551d79af5f54cd9fc854289a4e30e6caf4199bafd7d21e2",
           "preview": {
-            "path": "packages/dehuman/sound-and-surfaces/1.0.0/neutral-soft-preview.png",
+            "path": "packages/edgajuman/sound-and-surfaces/1.0.0/neutral-soft-preview.png",
             "size": 6342,
             "sha256": "83a3c475516a27659debe8543ce253a9bc2762c5e7aa376e9252837ae8ba4c82"
           }
