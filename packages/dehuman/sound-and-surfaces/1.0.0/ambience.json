@@ -4,6 +4,6 @@
   "values": {
     "creative.width.on": true,
     "creative.width.amount": 2.0,
-    "volume": -6.0
+    "volume.levelDb": -6.0
   }
 }

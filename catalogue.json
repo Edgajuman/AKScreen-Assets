@@ -318,8 +318,8 @@
             "license": "CC0-1.0"
           },
           "path": "packages/dehuman/sound-and-surfaces/1.0.0/ambience.json",
-          "size": 168,
-          "sha256": "c369ccaa6769d72456d8f29cb26e01ebea1e8ff129cce515f5331e5f8544679f",
+          "size": 176,
+          "sha256": "a848cc6c5a56f0e323a787386ebb04b6fefd6d194c80e2692d118daa1f464cce",
           "preview": {
             "path": "packages/dehuman/sound-and-surfaces/1.0.0/wide-ambience-preview.png",
             "size": 9854,
