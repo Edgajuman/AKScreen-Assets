@@ -1,0 +1,26 @@
+{
+  "assets": [
+    {
+      "attribution": {
+        "license": "MIT",
+        "source": "original work"
+      },
+      "description": "",
+      "id": "asset-001",
+      "name": "20048885.webp",
+      "path": "packages/edgajuman/1582/1.0.1/asset-001.webp",
+      "sha256": "f30d364480a946dbf6d5ee18847896996cfdb5e2ae8c0ebe3411d9e9099c14d3",
+      "size": 131242,
+      "type": "mediaImage"
+    }
+  ],
+  "author": "edgajuman",
+  "author_name": "Edgajuman",
+  "description": "",
+  "id": "1582",
+  "license": "MIT",
+  "name": "Waguri Background",
+  "schema": 1,
+  "tags": [],
+  "version": "1.0.1"
+}
