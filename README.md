@@ -1,6 +1,6 @@
 # AK Screen · Biblioteca
 
-[**Explorar catálogo web →**](https://edgajuman.github.io/AKScreen-Assets/) · [Descargar AK Screen](https://github.com/Edgajuman/AKScreen-Downloads/releases/tag/ak-v2.4.0)
+[**Explorar catálogo web →**](https://edgajuman.github.io/AKScreen-Assets/) · [Descargar AK Screen](https://github.com/Edgajuman/AKScreen-Downloads/releases)
 
 ## Colecciones de edgajuman para 2.4.0
 
@@ -26,11 +26,20 @@ guardarlo. Los aportes entran mediante pull request y solo se muestran tras su r
 
 ## Para publicar
 
-Lee [CONTRIBUTING.md](CONTRIBUTING.md). En AK Screen puedes preparar un aporte desde **Herramientas →
-Biblioteca comunitaria → Preparar aporte** y, después de instalar la [GitHub App de publicación](https://github.com/apps/ak-screen-asset-publisher)
-en el fork elegido, autorizar tu propia cuenta y crear el fork, enviar el pull request desde el editor.
-También puedes seguir el flujo manual de fork y pull request. Nunca añadas credenciales, ejecutables,
-scripts ni código de plugins.
+Lee [CONTRIBUTING.md](CONTRIBUTING.md). Desde **AK Screen 3.0**, abre **Herramientas →
+Biblioteca comunitaria → Preparar aporte → Iniciar sesión con GitHub**. Introduce el
+código temporal en GitHub con tu propia cuenta. El editor prepara tu fork, una rama
+y un pull request para revisión; no modifica directamente el catálogo oficial.
+
+La autorización OAuth solicita `public_repo` para escribir en tu fork público y
+enviar el PR. El token personal se conserva en el almacén de credenciales del
+sistema; puedes desconectarlo desde el editor. No se requiere instalar la GitHub
+App anterior y no se distribuye una cuenta ni un token compartidos.
+
+Puedes guardar borradores locales, continuar después, crear otra versión de un
+aporte y consultar si el PR está en revisión, aceptado o cerrado sin aceptar.
+También puedes seguir el flujo manual de fork y pull request. Nunca añadas
+credenciales, ejecutables, scripts ni código de plugins.
 
 ## Formatos aceptados
 

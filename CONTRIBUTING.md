@@ -49,9 +49,12 @@ registro de la decisión.
 ## Lista antes de enviar
 
 1. Comprueba `pack.json`, licencias, atribución, nombres y compatibilidad con AK Screen.
-2. Para enviar desde AK Screen, crea el fork desde la página del repositorio e instala la [GitHub App](https://github.com/apps/ak-screen-asset-publisher)
-   con acceso solo a ese fork. AK Screen autenticará tu cuenta con un código temporal, preparará la rama
-   y abrirá un PR; no pide permiso para crear repositorios ni modifica `main`.
+2. Para enviar desde **AK Screen 3.0**, inicia sesión con GitHub desde **Preparar
+   aporte** y autoriza el código de dispositivo con tu propia cuenta. El permiso
+   OAuth `public_repo` permite preparar tu fork público, una rama y un PR. No
+   requiere instalar la GitHub App anterior ni modifica directamente `main`.
+   Guarda un borrador si quieres continuar después; el editor conserva el enlace
+   del PR y permite consultar su revisión o crear una nueva versión del aporte.
 3. Para el envío manual, copia la carpeta preparada a `packages/<tu-usuario>/<id-del-paquete>/<versión>/`
    en tu fork.
 4. Desde la raíz del repositorio ejecuta `python tools/add_package.py packages/<tu-usuario>/<id-del-paquete>/<versión>/pack.json`.
